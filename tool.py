@@ -49,7 +49,7 @@ if choice == 1:
         url = urlgd21
         data = {
             "levelid": f"{random.randint(50,900000)}",
-            "server": f"https://shitshit.sumhex.repl.co/level/{random.randint(50,900000)}/{random.randint(50,900000)}",
+            "server": f"http://balanced-five-salmonberry.glitch.me/level/{random.randint(50,900000)}/{random.randint(50,900000)}",
             "debug": "0"
         }
         threading.Thread(target=shit).start()
@@ -64,7 +64,7 @@ if choice == 2:
         url = urlgd20
         data = {
             "levelid": f"{random.randint(50,900000)}",
-            "server": f"https://shitshit.sumhex.repl.co/level19/{random.randint(50,900000)}/{random.randint(50,900000)}",
+            "server": f"http://balanced-five-salmonberry.glitch.me/level19/{random.randint(50,900000)}/{random.randint(50,900000)}",
             "debug": "0"
         }
         threading.Thread(target=shit).start()
